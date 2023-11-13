@@ -1,0 +1,45 @@
+.cadastro {
+    background-color: var(--cinza-opacity);
+    margin-top: 6em;
+    padding: 96px;
+    text-align: center;
+}
+
+.cadastro__titulo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.cadastro__texto { 
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1.25em 0 2.50em;
+}
+
+.cadastro__email {
+    padding:  0.75em 0.87em;
+    border: 1px solid var(--cinza);
+    border-radius: 10px;
+    width: 300px;
+}
+
+.cadastro__email::placeholder {
+    font-weight: 400;
+    color: var(--cinza);
+    padding-right: 5em;
+}
+
+.cadastro__botao {
+    font-weight: 500;
+    color: var(--branco);
+    padding: 0.75em 1.25em;
+    border-radius: 5px;
+    background-color: var(--vermelho);
+}
+
+.copyright {
+    font-weight: 400;
+    color: var(--cinza);
+    margin-top: 2em;
+}

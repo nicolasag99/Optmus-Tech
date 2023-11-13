@@ -1,0 +1,33 @@
+.testemunha {
+    text-align: center;
+    background-color: rgba(142, 36, 36, 0.05);
+    padding: 4em;
+    margin: 0 7em 0 7em;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.testemunha__titulo {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.testemunha__texto {
+    color: var(--azul-marinho);
+    font-size: 36px;
+    font-weight: 500;
+    margin: 1em 0 2em 0;
+}
+
+.testemunha__colaborador {
+    color: var(--azul-marinho);
+    font-weight: 500;
+    margin: 1em 0 0.5em 0;
+}
+
+.testemunha__cargo {
+    color: var(--cinza);
+    font-size: 14px;
+    font-weight: 400;
+}

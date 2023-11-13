@@ -1,0 +1,63 @@
+.vagas {
+    text-align: center;
+}
+
+.vagas__secao {
+    display: inline;
+    color: var(--vermelho);
+    font-family: 14px;
+    font-weight: 500;
+    border-radius: 19px;
+    background-color: rgba(142, 36, 36, 0.05) ;
+    padding: 0.5em 0.7em;
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1em;
+}
+
+.vagas__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.vagas__img {
+    height: 100%;
+    margin: 4em 0;
+
+}
+
+.oportunidades {
+    margin: 4em 21em;
+    font-weight: 500;
+}
+
+.oportunidades__vaga {
+    border: 1px solid var(--cinza-claro);
+    padding: 1.5em;
+    border-radius: 16px;
+    margin-bottom: 1.5em;
+}
+
+.oportunidades__area {
+    color: var(--azul-marinho);
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+.oportunidades__titulo {
+    color: var(--azul-marinho);
+    font-size: 18px;
+    margin-bottom: 2em;
+
+}
+
+.oportunidades__lista {
+    color: var(--cinza);
+    display: flex;
+    gap: 1.5em;
+    font-size: 16px;
+}

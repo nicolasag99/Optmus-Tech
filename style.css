@@ -1,0 +1,25 @@
+@import url(reset.css);
+@import url(styles/header.css);
+@import url(styles/sobre-nos.css);
+@import url(styles/vagas.css);
+@import url(styles/testemunha.css);
+@import url(styles/cadastro.css);
+
+:root {
+    --fonte-principal: "Inter";
+    --cinza-escuro: #3A404E;
+    --cinza: #667085;
+    --cinza-claro: #EAECF0;
+    --vermelho: #8E2424;
+    --azul-marinho: #101828;  
+    --cinza-opacity: rgba(208, 213, 221, 0.15);
+    --branco: #FFFFFF
+}
+
+body {
+    justify-content: center;
+    font-family: var(--fonte-principal);
+    max-width: 1500px;  
+    margin: auto;
+}
+
